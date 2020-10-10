@@ -1,0 +1,23 @@
+.result {
+  align-self: flex-start;
+  margin-left: 3%;
+  font-weight: bold;
+  font-size: 1em;
+  color: #707070;
+}
+
+.list {
+  border-top: 2px solid #cccccc;
+  min-width: 94%;
+  max-width: 94%;
+  margin-top: 5px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+@media only screen and (max-width: 950px) {
+  .list {
+    width: 100%;
+    min-width: 100%;
+  }
+}

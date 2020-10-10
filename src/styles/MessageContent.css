@@ -1,0 +1,15 @@
+.message_content_container {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #cccccc;
+  background-color: lavender;
+  min-height: 6em;
+  width: 100%;
+}
+
+@media only screen and (max-width: 950px) {
+  .message_content_container {
+    min-width: 100%;
+    text-align: center;
+  }
+}
