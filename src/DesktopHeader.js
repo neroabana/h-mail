@@ -12,7 +12,7 @@ const Header = () => {
         <div className="header_field from">
           <div
             onClick={() => setHeaderLabelChoice("from")}
-            className={headerLabelChoice === "from" ? "darker" : ""}
+             className={headerLabelChoice === "from" ? "darker" : ""}
           >
             From
             {headerLabelChoice === "from" ? (

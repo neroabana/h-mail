@@ -17,8 +17,8 @@ const Inbox = () => {
     let alive = true;
     const desktop = (desktop_screen) => {
       if (desktop_screen.matches && alive) {
-        setDesktop(true);
-        setMobile(false);
+          setDesktop(true);
+          setMobile(false);
       }
     };
     let desktop_screen = window.matchMedia("(min-width: 950px)");

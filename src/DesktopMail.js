@@ -14,7 +14,7 @@ const DesktopMail = ({
   message,
 }) => {
   const openMail = () => {
-    //this is where message_ref_id may be used to redirect to a page/panel where the message(s) may be displayed
+     //this is where message_ref_id may be used to redirect to a page/panel where the message(s) may be displayed
   };
 
   let [headerLabelChoice] = useContext(contextSort);
