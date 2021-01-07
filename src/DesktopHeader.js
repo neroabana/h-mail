@@ -4,7 +4,7 @@ import sort_icon from "./files/icon_arrow01.svg";
 import { contextSort } from "./Context";
 
 const Header = () => {
-  let [headerLabelChoice, setHeaderLabelChoice] = useContext(contextSort);
+   let [headerLabelChoice, setHeaderLabelChoice] = useContext(contextSort);
 
   return (
     <>

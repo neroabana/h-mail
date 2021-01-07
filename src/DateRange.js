@@ -7,7 +7,7 @@ import DatePicker from "react-modern-calendar-datepicker";
 
 const DateRange = () => {
   let [dateRange, setDateRange] = useState({ from: null, to: null });
-  const customInput = ({ ref }) => (
+    const customInput = ({ ref }) => (
     <input
       readOnly
       ref={ref}
