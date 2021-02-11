@@ -6,7 +6,7 @@ import { contextSort } from "./Context";
 import "./styles/App.css";
 
 const dummyData = [
-    // in production this would be replaced by data from the backend
+  // in production this would be replaced by data from the backend
   {
     from: "abai@yahoo.com",
     to: "dauda@gmail.com",
