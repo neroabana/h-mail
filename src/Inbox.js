@@ -40,7 +40,7 @@ const Inbox = () => {
   }, []);
 
   return (
-    <>
+    <> 
       <div className="result">Results: {data.length} mail(s)</div>
       <div className="list">
         {data && desktop ? <DesktopHeader /> : null}
