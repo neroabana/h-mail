@@ -4,7 +4,9 @@ import mobile_sort_icon from "./files/icon_arrow01.svg";
 import { contextSort } from "./Context";
 
 const Header = () => {
+  
   let [headerLabelChoice, setHeaderLabelChoice] = useContext(contextSort);
+  
   return (
     <>
       <div id="mobile_header_container">
