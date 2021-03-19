@@ -2,7 +2,7 @@ import React from "react";
 import "./styles/MessageContent.css";
 
 const MessageContent = ({ content, ref_id }) => {
-  return (
+  return(
     <>
       <div className="message_content_container">
         <p>
