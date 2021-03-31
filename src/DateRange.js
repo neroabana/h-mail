@@ -5,8 +5,7 @@ import icon_search from "./files/icon_search.svg";
 import "react-modern-calendar-datepicker/lib/DatePicker.css";
 import DatePicker from "react-modern-calendar-datepicker";
 
-const DateRange = () => {
-  
+const DateRange = () => {  
   let [dateRange, setDateRange] = useState({ from: null, to: null });
     const customInput = ({ ref }) => (
     <input
