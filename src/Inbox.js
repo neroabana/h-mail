@@ -8,6 +8,7 @@ import { context } from "./Context";
 import "./styles/Inbox.css";
 
 const Inbox = () => {
+  
   let [data] = useContext(context);
   let [desktop, setDesktop] = useState();
   let [mobile, setMobile] = useState();
