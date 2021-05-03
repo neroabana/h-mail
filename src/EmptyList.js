@@ -2,8 +2,7 @@ import React from "react";
 import logo from "./files/logo.png";
 import "./styles/EmptyList.css";
 
-const EmptyList = () => {
-  
+const EmptyList = () => {  
    return (
     <>
       <div className="logo_box">
