@@ -3,7 +3,6 @@ import Inbox from "./Inbox";
 import "./styles/MailList.css";
 import MessageBody from "./MessageBody";
 import {Switch, Route} from "react-router-dom";
-
 const MailList = () => {
   return (
     <>
@@ -19,5 +18,4 @@ const MailList = () => {
     </>
   );
 };
-
 export default MailList;
