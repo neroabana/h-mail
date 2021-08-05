@@ -13,5 +13,4 @@ const MessageContent = ({ content, ref_id }) => {
     </>
   );
 };
-
 export default MessageContent;
