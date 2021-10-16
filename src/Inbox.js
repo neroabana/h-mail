@@ -61,7 +61,6 @@ const Inbox = () => {
               );
             })
           : null}
-
         {data && mobile ? <MobileHeader /> : null}
         {data && mobile
           ? data.map((value, index) => {
